@@ -11,6 +11,10 @@ node_modules
 .env.*
 !.env.example
 
+# npm files
+.npmignore
+.npmrc
+
 # vite configs
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
@@ -20,3 +24,6 @@ vite.config.ts.timestamp-*
 
 # miscellaneous
 .DS_Store
+.*.swp
+._*
+.git
