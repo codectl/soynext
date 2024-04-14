@@ -1,0 +1,19 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+// color themes
+$color-primary-light: #fff
+$color-primary-dark: #183353
+$color-secondary-light: #e2e8f0
+
+\:root
+  --text-color-primary: #{$color-primary-dark}
+  --background: #{$color-primary-light}
+body
+  color: var(--text-color-primary)
+  background: var(--background)
+
+  &.dark
+    --text-color-primary: #{$color-secondary-light}
+    --background: #{$color-primary-dark}
